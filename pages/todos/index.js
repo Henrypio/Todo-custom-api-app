@@ -1,4 +1,4 @@
-// pages/todos/index.js
+"use client"
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTodos } from "../../redux/todoSlice";
@@ -21,12 +21,7 @@ const TodoListPage = () => {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4 pb-3">Todo List</h1>
       <TodoForm />
-      {/* <Link
-        href="/todos/new"
-        className="bg-blue-500 text-white p-2 rounded mb-4 inline-block"
-      >
-        Add New Todo
-      </Link> */}
+     
 
       <div>
         {list.length === 0 ? (

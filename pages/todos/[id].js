@@ -1,4 +1,4 @@
-// pages/todos/[id].js
+"use client"
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import axiosInstance from "../../redux/axiosInstance";
